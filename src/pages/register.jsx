@@ -1,10 +1,10 @@
 import Common_form from '../components/Common_form'
-import AuthContext from '../Context'
+import {AuthContext} from '../Context'
 import { registerFormControls } from '../config'
 import { useContext } from 'react'
 // import {registerFormData} from '../Context'
 export default function Register() {
-  const {registerFormData} = useContext(AuthContext);
+  const {registerFormData , setRegisterFormData, registerOnSubmit} = useContext(AuthContext);
   console.log(registerFormData, "registerFormData");
   
   return (

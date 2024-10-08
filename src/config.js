@@ -2,22 +2,25 @@ import React from 'react'
 
 export const registerFormControls = [
     {
-        name: 'name',
-        type: 'text',
-        placeholder: 'Enter Your Name',
-        componentType: 'input',
+      componentType: 'input',
+      name: 'name',
+      type: 'text',
+      placeholder: 'Enter Your Name',
+      className: 'input-class'
     },
     {
-        name: 'email',
-        type: 'email',
-        placeholder: 'Enter Your Email',
-        componentType: 'input',
+      componentType: 'input',
+      name: 'email',
+      type: 'email',
+      placeholder: 'Enter Your Email',
+      className: 'input-class'
     },
     {
-        name: 'password',
-        type: 'password',
-        placeholder: 'Enter Your password',
-        componentType: 'input',
+      componentType: 'input',
+      name: 'password',
+      type: 'password',
+      placeholder: 'Enter Your Password',
+      className: 'input-class'
     }
-
-];
+  ];
+  
